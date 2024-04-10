@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.topic{
+    display: flex;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 50px;
+}
+.list > li{
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: rgb(59, 156, 230);
+    color: white;
+    border-radius: 10px;
+}
+
+.list > li:hover{
+    background-color: rgb(51, 237, 166);
+    transition: linear;
+}
+
+.about > #topic1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para1{
+    display: flex;
+    padding: 20px;
+    float: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills > .topic2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+}
+.skills > .para2 > .html{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    width: 100px;
+    height: 9px;
+    background-color: rgb(47, 255, 50);
+    border-radius: 10px;
+}
+.inner > .percent1{
+    display: flex;
+    padding: 10px
+    
+}
+.outer{
+    width: 110px;
+    height: 11px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.bar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills2 > .para3 > .css{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner1{
+    width: 100px;
+    height: 9px;
+    background-color: rgb(47, 255, 50);
+    border-radius: 10px;
+}
+.inner1 > .percent2{
+    display: flex;
+    padding: 10px
+    
+}
+.outer1{
+    width: 110px;
+    height: 11px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.bar1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills3 > .para4 > .js{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner2{
+    width: 70px;
+    height: 9px;
+    background-color: rgb(47, 255, 50);
+    border-radius: 10px;
+}
+.inner2 > .percent3{
+    display: flex;
+    padding: 10px
+    
+}
+.outer2{
+    width: 110px;
+    height: 11px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.bar2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills4 > .para5 > .boot{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner3{
+    width: 100px;
+    height: 9px;
+    background-color: rgb(47, 255, 50);
+    border-radius: 10px;
+}
+.inner3 > .percent4{
+    display: flex;
+    padding: 10px
+    
+}
+.outer3{
+    width: 110px;
+    height: 11px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.bar3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills5 > .para6 > .uiux{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner4{
+    width: 100px;
+    height: 9px;
+    background-color: rgb(47, 255, 50);
+    border-radius: 10px;
+}
+.inner4 > .percent5{
+    display: flex;
+    padding: 10px
+    
+}
+.outer4{
+    width: 110px;
+    height: 11px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.bar4{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1{
+    border-radius: 20px 0px 20px 0px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.image2{
+    border-radius: 0px 20px 0px 20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    float: right;
+    margin-right: 100px;
+    
+}
+.fun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tenor-gif-embed{
+    margin-top: 200px;
+}
+
+.foot > .idname{
+    display: flex;
+    list-style: none;
+
+}
+.foot > .contact{
+    display: flex;
+    margin-left: 100px;
+    text-decoration: underline;
+    
+}
+.foot > .idname > li{
+    padding: 20px;
+}
+
+.logo1{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo2{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo3{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
